@@ -1,6 +1,13 @@
 server:
   port: 8080
 spring:
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "qa"
   application:
     name: accounts
   datasource:
