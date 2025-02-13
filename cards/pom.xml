@@ -114,7 +114,7 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>randrino/${project.artifactId}:s4</image>
+						<image>randrino/${project.artifactId}:s6</image>
 					</to>
 				</configuration>
 			</plugin>
